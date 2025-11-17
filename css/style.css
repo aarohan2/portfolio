@@ -73,7 +73,7 @@ section {
   align-items: center;
 }
 .home_img {
-  width: 35rem;
+  width: 30rem;
 }
 
 .home_content h3 {
@@ -94,9 +94,6 @@ section {
     margin-top: 2rem;
 }
 
-.home_img {
-  width: 25vw;
-}
 
 .home_content p {
   font-size: 2rem;
@@ -116,6 +113,7 @@ section {
   margin: 2rem 1rem 2rem 0rem;
   transition: 1s ease;
 }
+
 
 .social_media a:hover {
   background-color: var(--main-color);
@@ -142,6 +140,16 @@ section {
   box-shadow: none;
 }
 
+.about{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: var(--sec-bg-color);
+}
 
+.about_img img{
+  width: 30rem;
+}
 
 
