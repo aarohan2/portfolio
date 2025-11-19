@@ -149,7 +149,58 @@ section {
 }
 
 .about_img img{
-  width: 30rem;
+  width: 45rem;
 }
 
+.heading{
+  font-size: 2rem;
+  
+}
 
+.heading span{
+  color: var(--main-color);
+}
+
+.about_content h3{
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+.about_content p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 2rem 0rem 1rem;
+}
+
+.heading_services {
+ font-size: 3rem;
+ text-align: center;
+ margin: 4rem 0rem;
+}
+
+.heading_services span{
+  color: var(--main-color);
+}
+
+.services_container h3{
+  color: var(--main-color);
+  font-size: 2rem;
+  margin: 4rem 0rem;
+}
+
+.services_container p{
+  font-size: 1.5rem;
+}
+
+.services_container { 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  text-align: center;
+}
+
+.services_container .services_box {
+  flex: 1 1 30rem;
+  background-color: var(--sec-bg-color);
+}
